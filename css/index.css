@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imglist {
+    text-align: center;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(229, 243, 250);
+    border-radius: 10px;
+    padding: 25px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/photo.jpg);
+    background-size: 22vw;
+    background-position-x: -3vw;
+    background-position-y: -2vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+}
+
+div.info>div {
+    margin-top: 10px;
+}
+
+div.info>.name {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "標楷體"
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-green {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-blue {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    background-color: #314BBE;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #3b4994;
+}
+
+.btn-yellow {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    background-color: #f57c00;
+    color: #fff;
+}
+
+.btn-yellow:hover {
+    background-color: #c56604;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 18px;
+}
